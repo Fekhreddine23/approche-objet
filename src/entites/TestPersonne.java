@@ -10,14 +10,18 @@ public class TestPersonne {
 		
 		
 		
-		//Modifiez la classe TestPersonne afin d’utiliser le second constructeur de la classe Personne
+		//instancier new adresse de la class AdressePostale
 		AdressePostale adresse1 = new AdressePostale(28, "rue", 30000, "Nimes");
 		
 		AdressePostale adresse2 = new AdressePostale(34, "route",34000, "Montpellier");
 		
+		//Modifiez la classe TestPersonne afin d’utiliser le second constructeur de la classe Personne
 		//Ajoutez un second constructeur à la classe Personne avec les 3 paramètres 
 		//permettant de valoriser les attributs nom, prenom et adresse.
+		
 		Personne pers1 = new Personne("toto","coco",adresse1);
+		pers1.modifAdresse(adresse1);
+		
 		
 		//pers1.adresse = new AdressePostale();
 		/*pers1.nom = "toto";
@@ -33,7 +37,8 @@ public class TestPersonne {
 		
 		
 		Personne pers2 = new Personne("momo","koko",adresse2);
-		;
+		pers2.modifAdresse(adresse2);
+		
 		/*pers2.nom = "momo";
 		pers2.prenom = "koko";
 		pers2.adresse = new AdressePostale();
