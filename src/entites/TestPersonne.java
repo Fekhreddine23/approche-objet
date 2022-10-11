@@ -30,6 +30,8 @@ public class TestPersonne {
 		
 		pers1.modifNom("popo");
 		
+		String nom = pers1.returName();
+		System.out.println(nom);
 		
 		//pers1.adresse = new AdressePostale();
 		/*pers1.nom = "toto";
