@@ -28,41 +28,41 @@ public class Personne {
     	
     	this.nom = nom2;
     	this.prenom = prenom2;
-    	this.AdressePostale = adresse;
+    	this.adresse = adresse;
     	
     	
     }
     
     //methode afficher majuscule
-    public void nomEtPrenom() {
-    	System.out.println(nom.toUpperCase()+ " " + prenom.toUpperCase());
+    public String nomEtPrenom() {
+    	return nom.toUpperCase()+ " " + prenom.toUpperCase();
     }
     
     //Dans la classe Personne, ajoutez une méthode qui prend un argument en paramètre 
     //et permet de modifier la variable d’instance nom de Personne.
-    public void modifNom(String nom) {
-    	this.nom = nom;
+    public void modifNom(String nvNom) {
+    	this.nom = nvNom;
     }
     
     //Dans la classe Personne, ajoutez une méthode similaire pour modifier le prénom.
-    public void modifPrenom(String prenom) {
-    	this.prenom = prenom;
+    public void modifPrenom(String nvPrenom) {
+    	this.prenom = nvPrenom;
     }
     
     //Dans la classe Personne, ajoutez une méthode similaire pour modifier l’adresse.
-    public void modifAdresse(AdressePostale adresse) {
+    public void modifAdresse(AdressePostale NvAdresse) {
     	
-    	this.AdressePostale = adresse;
+    	this.adresse = NvAdresse;
     }
     
     //Dans la classe Personne, ajoutez une méthode qui retourne le nom.
-    public String returName() {	return nom; }
+    public String returName() {	return this.nom; }
     
     //Dans la classe Personne, ajoutez une méthode qui retourne le prénom.
-    public String returnPrenom() { return prenom;}
+    public String returnPrenom() { return this.prenom;}
     
     //Dans la classe Personne, ajoutez une méthode qui retourne l’adresse.
-    public AdressePostale returnAdresse() {return AdressePostale};
+    public AdressePostale returnAdresse() {return this.adresse;}
     
     
 }

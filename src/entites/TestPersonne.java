@@ -19,8 +19,16 @@ public class TestPersonne {
 		//Ajoutez un second constructeur à la classe Personne avec les 3 paramètres 
 		//permettant de valoriser les attributs nom, prenom et adresse.
 		
-		Personne pers1 = new Personne("toto","coco",adresse1);
+		Personne pers1 = new Personne("toto","coco");
+		pers1.adresse = adresse1;
 		pers1.modifAdresse(adresse1);
+		
+		
+		String identite = pers1.nomEtPrenom();
+		System.out.println(identite);
+		
+		
+		pers1.modifNom("popo");
 		
 		
 		//pers1.adresse = new AdressePostale();
