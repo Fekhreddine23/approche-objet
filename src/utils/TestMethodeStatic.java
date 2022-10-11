@@ -1,5 +1,7 @@
 package utils;
 
+import java.security.PublicKey;
+
 public class TestMethodeStatic {
 
 	public static void main(String[] args) {
@@ -7,7 +9,7 @@ public class TestMethodeStatic {
  
 		
 		//déclarez une variable de type chaine de caractères qui contient un nombre entier.
-		String chaine = "12";
+		  String chaine = "12";
 		
 		//Utilisez une méthode de la classe java.lang.Integer qui 
 		//permet de convertir une chaîne de caractères en entier.
