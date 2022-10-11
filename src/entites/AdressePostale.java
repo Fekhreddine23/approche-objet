@@ -17,4 +17,6 @@ public class AdressePostale {
 	  this.codePostal = codePostalCh;
 	  this.ville = villes;
 	}
+	
+	//rajouter getter et setters
 }
