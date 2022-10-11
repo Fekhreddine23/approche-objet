@@ -18,9 +18,19 @@ public class Compte {
 //methodes 
 	
 	public void afficherCompte() {
-		System.out.println("votre numero est" + numeroDeCompte + "solde" + soldeDeCompte);
+		System.out.println("votre numero est " + numeroDeCompte + " solde" + soldeDeCompte);
 	}
+	
+	//methode toString()
+	public String toString() {
+		return "votre numero est " + numeroDeCompte + " solde " + soldeDeCompte;
+		}
 	
 	//get
 	public int getnumeroDeCompte() { return numeroDeCompte; }
+	
+	//set
+	public int setnumeroDeCompte(int newnumeroDeCompte) {
+		return this.numeroDeCompte = newnumeroDeCompte;
+	}
 }

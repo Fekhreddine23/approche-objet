@@ -2,15 +2,17 @@ package fr.diginamic.banque.entites;
 
 public class TestBanque {
 
-	private static final int New = 0;
+	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		//instance de compte
+		//instance de compte dans la variable soldeNouveau1
 		Compte soldeNouveau1 = new Compte(23,54);
 		
-		System.out.println(soldeNouveau1);
+		//dans la console un retour de chiffres 
+		
+		System.out.println(soldeNouveau1.toString());
 	}
 
 	 
