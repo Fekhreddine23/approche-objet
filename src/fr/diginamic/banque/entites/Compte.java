@@ -22,7 +22,7 @@ public class Compte {
 	//}
 
 	public void afficherCompte() {
-		System.out.println("votre numero est " + numeroDeCompte + " solde" + soldeDeCompte);
+		System.out.println("votre numero est " + numeroDeCompte + " solde " + soldeDeCompte);
 	}
 	
 	//methode toString()

@@ -17,6 +17,9 @@ public class TestBanque {
 		Compte compte1 = new Compte(456, 563.5);
 		System.out.println(compte1);
 		
+		
+		//tableau de compte herite de class Compte
+		// dans la variable tableau de tableDeComptes
 		Compte[] tableDeComptes = new Compte[2];
 		tableDeComptes[0] = new Compte(456, 235.5);
 		tableDeComptes[1] = new CompteTaux(457, 256, 3.56);

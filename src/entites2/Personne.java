@@ -1,6 +1,6 @@
 package entites2;
 
-import javax.sound.midi.VoiceStatus;
+ 
 
 import entites.AdressePostale;
 
