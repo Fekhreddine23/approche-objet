@@ -21,41 +21,28 @@ public class TestPersonne {
 		
 		Personne pers1 = new Personne("toto","coco");
 		pers1.adresse = adresse1;
-		pers1.modifAdresse(adresse1);
+		pers1.setAdresse(adresse1);
 		
 		
 		String identite = pers1.nomEtPrenom();
 		System.out.println(identite);
 		
-		
-		pers1.modifNom("popo");
+		//modifie le nom
+		pers1.setNom("popo");
 		
 		String nom = pers1.returName();
 		System.out.println(nom);
 		
-		//pers1.adresse = new AdressePostale();
-		/*pers1.nom = "toto";
-		pers1.prenom = "coco";
 		
-		pers1.adresse.numeroRue = 5;
-		pers1.adresse.libelleRue = "rue";
-		pers1.adresse.codePostal = 56000;
-		pers1.adresse.ville = "56000;**/
 		
 		
 		
 		
 		
 		Personne pers2 = new Personne("momo","koko",adresse2);
-		pers2.modifAdresse(adresse2);
+		pers2.setAdresse(adresse2); //modifie l'adresse
 		
-		/*pers2.nom = "momo";
-		pers2.prenom = "koko";
-		pers2.adresse = new AdressePostale();
-		pers2.adresse.numeroRue = 9;
-		pers2.adresse.libelleRue = "avenue";
-		pers2.adresse.codePostal = 84000;
-		pers2.adresse.ville = "avignon";**/
+		
 		
 		
 	

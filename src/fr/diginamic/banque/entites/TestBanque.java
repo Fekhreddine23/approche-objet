@@ -8,10 +8,12 @@ public class TestBanque {
 		// TODO Auto-generated method stub
 
 		//instance de compte dans la variable soldeNouveau1
-		//Compte soldeNouveau1 = new Compte(23,54);
 		//dans la console un retour de chiffres 
 		//System.out.println(soldeNouveau1.toString());
 		
+		
+		//Dans la méthode main, créez une instance de la classe Compte avec un numéro et 
+		//un solde de votre choix.
 		
 		// tp7
 		Compte compte1 = new Compte(456, 563.5);

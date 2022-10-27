@@ -32,9 +32,16 @@ public class Compte {
 	
 	//get
 	public int getnumeroDeCompte() { return numeroDeCompte; }
+	public double getsoldeDeCompte () {return soldeDeCompte;};
 	
 	//set
 	public int setnumeroDeCompte(int newnumeroDeCompte) {
 		return this.numeroDeCompte = newnumeroDeCompte;
+	}
+
+	 
+
+	public void setSoldeDeCompte(double soldeDeCompte) {
+		this.soldeDeCompte = soldeDeCompte;
 	}
 }

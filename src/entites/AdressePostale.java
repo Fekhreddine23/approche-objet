@@ -3,20 +3,54 @@ package entites;
 public class AdressePostale {
 	
 	//initialisation variable
-	public int numeroRue;
-	public String libelleRue;
-	public int codePostal;
-	public String ville;
-	
-	
-	//constructor
-	public AdressePostale(int num, String libelleRueString, int codePostalCh, String villes) {
+	//elle doit avoir les 4 attributs suivants : numéro de rue, libellé de la rue, code postal et ville.
+	 int numeroRue;
+	 String libelleDeRue;
+	 int codePostale;
+	 String ville;
+	 
+	 public AdressePostale(int numeroRue, String libelleDeRue, int codePostale, String ville) {
+		 
+		 this.numeroRue = numeroRue;
+		 this.libelleDeRue = libelleDeRue;
+		 this.codePostale = codePostale;
+		 this.ville = ville;
 		
-	  this.numeroRue = num;
-	  this.libelleRue = libelleRueString;
-	  this.codePostal = codePostalCh;
-	  this.ville = villes;
+	}
+	//rajouter getter et setters
+	public int getNumeroRue() {
+		return numeroRue;
+	}
+
+	public void setNumeroRue(int numeroRue) {
+		this.numeroRue = numeroRue;
+	}
+
+	public String getLibelleDeRue() {
+		return libelleDeRue;
+	}
+
+	public void setLibelleDeRue(String libelleDeRue) {
+		this.libelleDeRue = libelleDeRue;
+	}
+
+	public int getCodePostale() {
+		return codePostale;
+	}
+
+	public void setCodePostale(int codePostale) {
+		this.codePostale = codePostale;
+	}
+
+	public String getVille() {
+		return ville;
+	}
+
+	public void setVille(String ville) {
+		this.ville = ville;
 	}
 	
-	//rajouter getter et setters
+	
 }
+	
+	

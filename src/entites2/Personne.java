@@ -40,17 +40,17 @@ public class Personne {
     
     //Dans la classe Personne, ajoutez une méthode qui prend un argument en paramètre 
     //et permet de modifier la variable d’instance nom de Personne.
-    public void modifNom(String nvNom) {
+    public void setNom(String nvNom) {
     	this.nom = nvNom;
     }
     
     //Dans la classe Personne, ajoutez une méthode similaire pour modifier le prénom.
-    public void modifPrenom(String nvPrenom) {
+    public void setPrenom(String nvPrenom) {
     	this.prenom = nvPrenom;
     }
     
     //Dans la classe Personne, ajoutez une méthode similaire pour modifier l’adresse.
-    public void modifAdresse(AdressePostale NvAdresse) {
+    public void setAdresse(AdressePostale NvAdresse) {
     	
     	this.adresse = NvAdresse;
     }
